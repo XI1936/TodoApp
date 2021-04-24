@@ -1,19 +1,22 @@
 # Getting Started with Create React App
-Clone the Repository and run below command 
-cd project_directory_name
-npm install 
-npm start
+<ul>
+<li>Clone the Repository and run below command </li>
+<li>cd project_directory_name</li>
+<li>npm install </li>
+<li>npm start</li>
+</ul>
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Steps for Getting started with React App from Scrach
-npx create-react-app Todo-list
-npm install react-router-dom
-cd Todo-list
-npm start
-
+<ul>
+<li>npx create-react-app Todo-list</li>
+<li>npm install react-router-dom</li>
+<li>cd Todo-list</li>
+<li>npm start</li>
+</ul>
 <hr/>
------Add in index file----
+## Add in index file
 Bootstrap : CSS
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -30,12 +33,12 @@ Used Two React Hooks
 <li>useEffect</li>
 </ul>
 This to Remember in JSX below synext should be used 
-
-class => className
-for => htmlFor
-a=> Link
-href => to
-
+<ul>
+<li> class => className </li>
+<li>for => htmlFor </li>
+<li>a=> Link </li>
+<li>href => to <li>
+</ul>
 if using mytiple div in return use <></>
 
 You will also see any lint errors in the console.
