@@ -1,11 +1,17 @@
 import React from "react";
+import './CSSFiles/about.css';
 
 export const About = () => {
   return (
+    <>
+      <div className="photoParent">
+      <div id="childDiv"> 
+       <p>  I am <span> Saif </span></p>
+      </div>
+    </div>
     <div className="container rounded border border-info py-3 my-3">
-      <h3 className="text-center"> I'am Saif</h3>
-      <p>
-        I'm Bachelor, Web Developer, and Learner! Passionate about building
+      <p id="first_para">
+        I am Bachelor, Web Developer, and Learner! Passionate about building
         excellent software that improves the lives of those around me. I
         specialize in creating software for clients ranging from individuals and
         small-businesses all the way to large enterprise corporations. What
@@ -27,5 +33,7 @@ export const About = () => {
         </li>
       </ul>
     </div>
+    <br/>
+    </>
   );
 };
