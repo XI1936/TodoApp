@@ -40,7 +40,7 @@ export const AddTodo = (props) => {
           />
         </div>
         <button type="submit" className="btn btn-primary my-2">
-          Add Work item
+          Add Work item.
         </button>
       </form>
     </div>
